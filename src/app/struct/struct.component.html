@@ -2,3 +2,8 @@
   struct works!
 </p>
 <button (click)="changeShow()">Toggle</button>
+<ul>
+  <li *ngFor="let subject of monHoc">
+    <p>{{ 'subject: ' + subject  }}</p>
+  </li>
+</ul>
